@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Tahoma, Serif;
+  color: #000000;
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  background: #ffffff;
+  border-bottom: #000000 solid 1px;
+  width: 100%;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000
+}
+
+.img {
+  border-bottom: #000000 solid 1px;
+}
+
+.img7 {
+  height: 100%;
+  border-bottom: #000000 solid 1px;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+  font-size: 5rem;
+  padding-top: 1.5rem;
+  font-weight: bold;
+}
+
+.text2 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.8rem;
+}
+
+.btn {
+  background-color: #000000;
+  border: 1.5px solid transparent;
+  border-radius: 26px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 47%;
+}
+
+.text3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.8rem;
+}
+
+.flex-container {
+  height: 800px;
+  background-image: url("images/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: #000000 solid 1px;
+  background-position: center center;
+
+}
+
+.flex-container2 {
+  height: 800px;
+  background-image: url("images/img8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: #000000 solid 1px;
+  background-position: center center;
+
+}
+
+.flex-container3 {
+  height: 800px;
+  background-image: url("images/img10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: #000000 solid 1px;
+  background-position: center center;
+
+}
+
+.flex-container4 {
+  height: 800px;
+  background-image: url("images/img12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: #000000 solid 1px;
+  background-position: center center;
+
+}
+
+.center {
+  padding-top: 45rem;
+}
+
+.btn-bot {
+  background-color: #ffffff;
+  border: 1.5px solid black;
+  border-radius: 26px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 50%;
+
+}
+
+.footer-clean {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social>a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social>a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
